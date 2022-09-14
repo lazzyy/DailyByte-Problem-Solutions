@@ -1692,3 +1692,79 @@ Player one takes 1
 ```
 
 [Solution](/Solutions/WhoWins.java)
+
+---
+
+### Problem 65 : StairMaster
+
+> This question is asked by Apple.
+
+Given a staircase where the ith step has a non-negative cost associated with it given by ```cost[i]```, return the minimum cost of climbing to the top of the staircase. You may climb one or two steps at a time and you may start climbing from either the first or second step.
+
+```java
+Ex: Given the following cost array…
+
+cost = [5, 10, 20], return 10.
+```
+
+```java
+Ex: Given the following cost array…
+
+cost = [1, 5, 10, 3, 7, 2], return 10.
+```
+
+[Solution](/Solutions/StairMaster.java)
+
+---
+
+### Problem 66 : Making Change
+
+> This question is asked by Facebook.
+
+Given an array that represents different coin denominations and an amount of change you need to make, return the fewest number of coins it takes to make the given amount of change.
+
+> Note: If it is not possible to create the amount of change with the coins you’re given, return -1.
+
+```java
+Ex: Given the following denominations and amount…
+
+coins = [1,5, 10, 25], amount = 78, return 6
+Take three 25 coins and three 1 coins for a total of 6 coins.
+```
+
+[Solution](/Solutions/MakingChange.java)
+
+---
+
+### Problem 67 : Message Decryption
+
+> This question is asked by Microsoft.
+
+Given a message that is encoded using the following encryption method…
+
+```java
+A -> 1
+B -> 2
+C -> 3
+...
+Z -> 26
+```
+
+Return the total number of ways it can be decoded.
+Note: ‘0’ has no mapping and a character following a ‘0’ also has no mapping (i.e. “03”)
+
+```java
+Ex: Given the following message…
+
+message = "23", return 2.
+The message can be decrypted as "BC" (i.e. 2 -> B, 3 -> C)
+The message can also be decrypted as "W" (i.e. 23 -> W)
+```
+
+```java
+Ex: Given the following message…
+
+message = "1234", return 3.
+```
+
+[Solution](/Solutions/MessageDecryption.java)
