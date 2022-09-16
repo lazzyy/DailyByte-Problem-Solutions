@@ -1812,3 +1812,31 @@ The frog can jump from stone 0, to stone 1, to stone 2, to stone 4.
 ```
 
 [Solution](/Solutions/RiverCrossing.java)
+
+---
+
+### Problem 70 : Longest Common Consequence
+
+> This question is asked by Google.
+
+Given two strings, ```s``` and ```t```, return the length of their longest subsequence.
+
+```java
+Ex: Given the following strings s and t…
+
+s = "xyz", t = "xyz". return 3.
+```
+
+```java
+Ex: Given the following strings s and t…
+
+s = "abca", t = "acea", return 3.
+```
+
+```java
+Ex: Given the following strings s and t…
+
+s = "abc", t = "def", return 0.
+```
+
+[Solution](/Solutions/LongestCommonSubsequence.java)
