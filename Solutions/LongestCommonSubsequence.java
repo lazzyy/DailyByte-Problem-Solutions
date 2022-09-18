@@ -7,7 +7,7 @@ public class LongestCommonSubsequence {
         String s1 = sc.next();
         System.out.print("Enter string 2 : ");
         String s2 = sc.next();
-        System.out.println("Longes common subsequence : " + longesCommonSubsequence(s1, s2));
+        System.out.println("Longest common subsequence : " + longesCommonSubsequence(s1, s2));
         sc.close();
     }
 
