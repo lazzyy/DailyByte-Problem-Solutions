@@ -1860,3 +1860,26 @@ nums = [1, 5,-2, -3, 7], return 8 (1 + 5 + (-2) + (-3) + 7)
 ```
 
 [Solution](/Solutions/MaximumSubarray.java)
+
+---
+
+### Problem 72 : Edit Distance
+
+> This question is asked by Google.
+
+Given two strings ```s``` and ```t```, return the minimum number of operations needed to convert ```s``` into ```t``` where a single operation consists of inserting a character, deleting a character, or replacing a character.
+
+```java
+Ex: Given the following strings s and t…
+
+s = "cat", t = "bat", return 1.
+```
+
+```java
+Ex: Given the following strings s and t…
+
+s = "beach", t = "batch", return 2.
+Delete the 'e' in "beach" and add a 't' to the resulting "bach".
+```
+
+[Solution](/Solutions/EditDistance.java)
