@@ -1883,3 +1883,27 @@ Delete the 'e' in "beach" and add a 't' to the resulting "bach".
 ```
 
 [Solution](/Solutions/EditDistance.java)
+
+---
+
+### Problem 73 : Dictionary Words
+
+> This question is asked by Amazon.
+
+Given a string s and a list of words representing a dictionary, return whether or not the entirety of s can be segmented into dictionary words.
+
+> Note: You may assume all characters in ```s``` and the dictionary are lowercase.
+
+```java
+Ex: Given the following string s and dictionary…
+
+s = "thedailybyte", dictionary = ["the", "daily", "byte"], return true.
+```
+
+```java
+Ex: Given the following string s and dictionary…
+
+s = "pizzaplanet", dictionary = ["plane", "pizza"], return false.
+```
+
+[Solution](/Solutions/DictionaryWords.java)
