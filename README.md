@@ -1997,6 +1997,8 @@ W = 7, weights = [1, 3, 4], values = [3, 5, 6], return 11.
 
 [Solution](/Solutions/ArtGalleryThief.java)
 
+---
+
 ### Problem 78 : Buggy Software
 
 > This question is asked by Facebook.
@@ -2016,3 +2018,71 @@ isBadRelease(4) // returns true.
 
 return 4.
 ```
+
+[Solution](/Solutions/BuggySoftware.java)
+
+---
+
+### Problem 79 : Gym Lockers
+
+> his question is asked by Facebook.
+
+In a gym hallway there are N lockers. You walk back and forth down the hallway opening and closing lockers. On your first pass you open all the lockers. On your second pass, you close every other locker. On your third pass you open every third locker. After walking the hallway N times opening/closing lockers in the previously described manner, how many locker are left open?
+
+```java
+Ex: Given the following value of N…
+
+N = 1, return 1.
+You walk down the hallway once and open the only locker.
+```
+
+```java
+Ex: Given the following value of N…
+
+N = 2, return 1.
+You walk down the hallway and open both lockers.
+You walk back down the hallway and close the last locker.
+```
+
+[Solution](/Solutions/GymLockers.java)
+
+---
+
+### Problem 80 : One Gone Missing
+
+> This question is asked by Amazon.
+
+Given an array that contains all distinct values from zero through N except one number, return the number that is missing from the array.
+
+```java
+Ex: Given the following array nums…
+
+nums = [1, 4, 2, 0], return 3.
+3 is the only number missing in the array between 0 and 4.
+```
+
+```java
+Ex: Given the following array nums…
+
+nums = [6, 3, 1, 2, 0, 5], return 4.
+4 is the only number missing in the array between 0 and 6.
+```
+
+[Solution](/Solutions/OneGoneMissing.java)
+
+---
+
+### Problem 81 : Complementary Numbers
+
+Given a positive number, return its complementary number.
+Note: The complement of a number is the number that results from flipping every bit in the original number. (i.e. zero bits become one bits and one bits become zero bits).
+
+```java
+Ex: Given the following number…
+
+number = 27, return 4.
+27 in binary (not zero extended) is 11011.
+Therefore, the complementary binary is 00100 which is 4.
+```
+
+[Solution](/Solutions/ComplementaryNumbers.java)
