@@ -2086,3 +2086,231 @@ Therefore, the complementary binary is 00100 which is 4.
 ```
 
 [Solution](/Solutions/ComplementaryNumbers.java)
+
+---
+
+### Problem 82 : Create Trie
+
+> This question is asked by Microsoft.
+
+Implement a trie class that supports insertion and search functionalities.
+Note: You may assume only lowercase alphabetical characters will added to your trie.
+
+```java
+Ex: Given the following operations on your trie…
+
+Trie trie = new Trie()
+trie.insert("programming");
+trie.search("computer") // returns false.
+trie.search("programming") // returns true.
+```
+
+[Solution](/Solutions/CreateTrie.java)
+
+---
+
+### Problem 83 : Finding Friends
+
+> This question is asked by Facebook.
+
+You are given a two dimensional matrix, ```friends```, that represents relationships between coworkers in an office. If ```friends[i][j] = 1``` then coworker ```i``` is friends with coworker ```j``` and coworker ```j``` is friends with coworker ```i```. Similarly if ```friends[i][j] = 0``` then coworker ```i``` is not friends with coworker ```j``` and coworker ```j``` is not friend with coworker ```i```. Friendships in the office are transitive (i.e. if coworker one is friends with coworker two and coworker two is friends with coworker three, coworker one is also friends with coworker three). Given the friendships in the office defined by ```friends```, return the total number of distinct friends groups in the office.
+Note: Each coworker is friends with themselves (i.e.```matrix[i][j] = 1``` for all values where ```i = j```)
+
+```java
+Ex: Given the following matrix friends…
+
+friends = [
+    [1, 1, 0],
+    [1, 1, 0],
+    [0, 0, 1]
+], return 2.
+The 0th and 1st coworkers are friends with one another (first friend group).
+The 2nd coworker is friends with themself (second friend group).
+```
+
+[Solutions](/Solutions/FindingFriends.java)
+
+---
+
+### Problem 84 : Counting Primes
+
+> This question is asked by Google.
+
+Given a positive integer ```N```, return the number of prime numbers less than ```N```.
+
+```java
+Ex: Given the following N…
+
+N = 3, return 1.
+2 is the only prime number less than 3.
+Ex: Given the following N…
+
+N = 7, return 3.
+2, 3, and 5 are the only prime numbers less than 7.
+```
+
+[Solution](/Solutions/CountingPrimes.java)
+
+---
+
+### Problem 85 : Iterative Inorder Traversal
+
+Given a binary tree, return a list containing its inorder traversal without using recursion.
+
+```java
+Ex: Given the following tree…
+
+      2     
+     / \   
+    1   3
+return [1, 2, 3]
+Ex: Given the following tree…
+
+        2
+       / \
+      1   7
+     / \
+    4   8
+return [4, 1, 8, 2, 7]
+```
+
+[Solution](/Solutions/IterativeInorderTraversal.java)
+
+---
+
+### Problem 86 : Reverse Vowels
+
+> This question is asked by Facebook.
+
+Given a string, reverse the vowels of it.
+Note: In this problem ```y``` is not considered a vowel.
+
+```java
+Ex: Given the following strings s…
+
+s = "computer", return "cemputor"
+Ex: Given the following strings s…
+
+s = "The Daily Byte", return "The Dialy Byte"
+```
+
+[Solution](/Solutions/ReverseVowels.java)
+
+---
+
+### Problem 87 : Reap Children
+
+You are given two lists of integers and an integer representing a process id to kill. One of the lists represents a list of process ids and the other represents a list of each of the processes’ corresponding (by index) parent ids. When a process is killed, all of its children should also be killed. Return a list of all the process ids that are killed as a result of killing the requested process. Ex: Given the following…
+
+```java
+pid =  [2, 4, 3, 7]
+ppid = [0, 2, 2, 3]
+kill = 7
+the tree of processes can be represented as follows:
+      2
+     / \
+    4   3
+       /
+      7
+
+return [3, 7] as killing process 3 will also require killing its child (i.e. process 10).
+```
+
+[Solution](/Solutions/ReapChildren.java)
+
+---
+
+### Problem 88 : Character Scramble
+
+> This question is asked by Amazon.
+
+Given two strings, passage and text return whether or not the characters in text can be used to form the given passage.
+Note: Each character in text may only be used once and passage and text will only contain lowercase alphabetical characters.
+
+```java
+Ex: Given the following passage and text…
+
+passage = "bat", text = "cat", return false.
+Ex: Given the following passage and text…
+
+passage = "dog" text = "didnotgo", return true.
+```
+
+[Solution](/Solutions/CharacterScramble.java)
+
+---
+
+### Problem 89 : Subsequence
+
+> This question is asked by Google.
+
+Given two strings s and t return whether or not ```s``` is a subsequence of ```t```.
+Note: You may assume both ```s``` and ```t``` only consist of lowercase characters and both have a length of at least one.
+
+```java
+Ex: Given the following strings s and t…
+
+s = "abc", t = "aabbcc", return true.
+Ex: Given the following strings s and t…
+
+s = "cpu", t = "computer", return true.
+Ex: Given the following strings s and t…
+
+s = "xyz", t = "axbyc", return false.
+```
+
+[Solution](/Solutions/Subsequence.java)
+
+---
+
+### Problem 90 : Count Islands
+
+Given a 2D array of integers with ones representing land and zeroes representing water, return the number of islands in the grid. Note: an island is one or more ones surrounded by water connected either vertically or horizontally.
+
+```java
+Ex: Given the following grid…
+
+11000
+11010
+11001
+return 3.
+
+Ex: Given the following grid…
+
+00100
+00010
+00001
+00001
+00010
+return 4.
+```
+
+[Solution](/Solutions/CountIslands.java)
+
+---
+
+### Problem 91 : Compression
+
+> This question is asked by Facebook.
+
+Given a character array, compress it in place and return the new length of the array.
+Note: You should only compress the array if its compressed form will be at least as short as the length of its original form.
+
+```java
+Ex: Given the following character array chars…
+
+chars = ['a', 'a', 'a', 'a', 'a', 'a'], return 2.
+chars should be compressed to look like the following:
+chars = ['a', '6']
+Ex: Given the following character array chars…
+
+chars = ['a', 'a', 'b', 'b', 'c', 'c'], return 6.
+chars should be compressed to look like the following:
+chars = ['a', '2', 'b', '2', 'c', '2']
+Ex: Given the following character array chars…
+
+chars = ['a', 'b', 'c'], return 3.
+In this case we chose not to compress chars.
+```
+
+[Solution](/Solutions/Compression.java)
