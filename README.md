@@ -2314,3 +2314,110 @@ In this case we chose not to compress chars.
 ```
 
 [Solution](/Solutions/Compression.java)
+
+---
+
+### Problem 92 : Distance to Rabbit Holes
+
+Given a 2D array containing only the following values: -1, 0, 1 where -1 represents an obstacle, 0represents a rabbit hole, and 1represents a rabbit, update every cell containing a rabbit with the distance to its closest rabbit hole.
+
+```java
+Note: multiple rabbit may occupy a single rabbit hole and you may assume every rabbit can reach a rabbit hole. A rabbit can only move up, down, left, or right in a single move. Ex: Given the following grid…
+
+-1  0  1
+ 1  1 -1
+ 1  1  0
+your grid should look like the following after running the function...
+-1  0  1
+2  1 -1
+2  1  0
+
+Ex: Given the following grid…
+
+ 1  1  1
+ 1 -1 -1
+ 1  1  0
+your grid should look like the following after running the function...
+4  5  6
+3 -1 -1
+2  1  0
+```
+
+[Solution](/Solutions/DistanceToRabbitHoles.java)
+
+---
+
+### Problem 93 : Defanging IPs
+
+This question is asked by Amazon. Given a valid IP address, defang it.
+Note: To defang an IP address, replace every ```"."```, with ```"[.]"```.
+
+Ex: Given the following address...
+
+```java
+address = "127.0.0.1", return "127[.]0[.]0[.]1"
+```
+
+[Solution](/Solutions/DefangingIPs.java)
+
+---
+
+### Problem 94 : Removing Vowels
+
+This question is asked by Amazon. Given a string ```s``` remove all the vowels it contains and return the resulting string.
+Note: In this problem ```y``` is not considered a vowel.
+
+```java
+Ex: Given the following string s…
+
+s = "aeiou", return ""
+
+Ex: Given the following string s…
+
+s = "byte", return "byt"
+
+Ex: Given the following string s…
+
+s = "xyz", return "xyz"
+
+```
+
+[Solution](/Solutions/RemovingVowels.java)
+
+---
+
+### Problem 95 : Minimize Path
+
+This question is asked by Google. Given an NxM matrix, ```grid```, where each cell in the matrix represents the cost of stepping on the current cell, return the minimum cost to traverse from the top-left hand corner of the matrix to the bottom-right hand corner.
+Note: You may only move down or right while traversing the ```grid```.
+
+```java
+Ex: Given the following grid…
+
+grid = [
+    [1,1,3],
+    [2,3,1],
+    [4,6,1]
+], return 7.
+The path that minimizes our cost is 1->1->3->1->1 which sums to 7.
+```
+
+[Solution](/Solutions/MinimizePath.java)
+
+---
+
+### Problem 96 : Hamming Distance
+
+This question is asked by Facebook. Given two integers ```x``` and ```y```, return the hamming distance between the two numbers.
+Note: The hamming distance between two numbers is the number of bit positions in which the bits differ.
+
+```java
+Ex: Given the following integers x and y…
+
+x = 2, y = 4, return 2.
+2 in binary is 0 0 1 0
+4 in binary is 0 1 0 0
+therefore the number of positions in which the bits differ is two.
+```
+
+[Solution](/Solutions/HammingDistance.java)
