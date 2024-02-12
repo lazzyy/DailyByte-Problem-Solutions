@@ -2517,3 +2517,85 @@ nums = [1, 2, 3, 4], one possible way to sort the array is [2,1,4,3]
 ```
 
 [Solution](/Solutions/ArrayShuffle.java)
+
+---
+
+### Problem 101 : Is Monotonic
+
+> This question is asked by Facebook.
+
+Given an array nums, return whether or not its values are monotonically increasing or monotonically decreasing.
+
+Note: An array is monotonically increasing if for all values `i <= j`, `nums[i] <= nums[j]`. Similarly an array is monotonically decreasing if for all values `i <= j`, `nums[i] >= nums[j]`.
+
+```java
+Ex: Given the following array nums…
+
+nums = [1, 2, 3, 4, 4, 5], return true.
+
+Ex: Given the following array nums…
+
+nums = [7, 6, 3], return true.
+Ex: Given the following array nums…
+
+nums = [8, 4, 6], return false.
+```
+
+---
+
+### Problem 102 : Diving Deep
+
+> This question is asked by Google.
+
+Given an N-ary tree, return its maximum depth.
+Note: An N-ary tree is a tree in which any node may have at most N children.
+
+```java
+Ex: Given the following tree…
+
+            4
+          / | \
+         3  9  2
+        /       \
+       7         2
+return 3.
+```
+
+[Solution](/Solutions/DivingDeep.java)
+
+---
+
+### Problem 103 : Keyboard Row
+
+Given a list of words, return all the words that require only a single row of a keyboard to type.
+Note: You may assume that all words only contain lowercase alphabetical characters.
+
+```java
+Ex: Given the following list of words…
+
+words = ["two", "dad", "cat"], return ["two", "dad"].
+Ex: Given the following list of words…
+
+words = ["ufo", "xzy", "byte"], return [].
+```
+
+[Solution](/Solutions/KeyboardRow.java)
+
+---
+
+### Problem 104 : Flip Flopping Bits
+
+Given a positive integer N, return whether or not it has alternating bit values.
+
+```java
+Ex: Given the following value for N…
+
+N = 5, return true.
+5 in binary is 101 which alternates bit values between 0 and 1.
+Ex: Given the following value for N…
+
+N = 8, return false
+8 in binary is 1000 which does not alternate bit values between 0 and 1.
+```
+
+[Solution](/Solutions/FlipFloppingBits.java)
