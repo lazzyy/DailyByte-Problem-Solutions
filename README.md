@@ -2599,3 +2599,82 @@ N = 8, return false
 ```
 
 [Solution](/Solutions/FlipFloppingBits.java)
+
+---
+
+### Problem 105 : Reverse Number
+
+> This question is asked by Apple.
+
+Given a 32 bit signed integer, reverse it and return the result.
+Note: You may assume that the reversed integer will always fit within the bounds of the integer data type.
+
+````java
+Ex: Given the following integer num…
+
+num = 550, return 55
+Ex: Given the following integer num…
+
+num = -37, return -73```
+````
+
+[Solution](/Solutions/ReverseNumber.java)
+
+---
+
+### Problem 106 : No Same Neighbors
+
+> This question is asked by Facebook.
+
+Given a string, check if it can be modified such that no two adjacent characters are the same. If it is possible, return any string that satisfies this condition and if it is not possible return an empty string.
+
+```java
+Ex: Given the following string s…
+
+s = "abb", return "bab".
+Ex: Given the following string s…
+
+s = "xxxy", return "" since it is not possible to modify s such that no two adjacent characters are the same.
+```
+
+[Solution](/Solutions/NoSameNeighbors.java)
+
+---
+
+### Problem 107 : Sum Within Bounds
+
+> This question is asked by Facebook.
+
+Given the root of a binary tree and two values low and high return the sum of all values in the tree that are within low and high.
+
+```java
+Ex: Given the following tree where low = 3 and high = 5
+
+        1
+       / \
+      7   5
+    /    / \
+   4    3   9
+return 12 (3, 4, and 5 are the only values within low and high and they sum to 12)
+
+```
+
+[Solution](/Solutions/SumWithinBounds.java)
+
+---
+
+### Problem 108 : Identical Elements
+
+> This question is asked by Google.
+
+Given an array, nums, and an integer k, return whether or not two unique indices exist such that nums[i] = nums[j] and the two indices i and jj are at most k elements apart.
+
+```java
+Ex: Given the following array nums and value k…
+nums = [1, 2, 1], k = 1, return false.
+
+Ex: Given the following array nums and value k…
+nums = [2, 3, 2], k = 2, return true.
+```
+
+[Solution](/Solutions/IdenticalElements.java)
